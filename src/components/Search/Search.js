@@ -3,7 +3,8 @@ import { useState } from "react";
 import {useNavigate} from "react-router-dom"
 
 
-const examen=[{
+const examen=[
+  {
     _id: "6439daa1706f22483c4758ef",
     Description: "Nisi anim proident sint amet magna amet irure mollit duis. Irure reprehenderit cillum aute est deserunt laboris quis ipsum ex ullamco nisi occaecat consectetur velit. Qui irure voluptate eu anim esse excepteur veniam adipisicing magna minim tempor ex anim. Pariatur fugiat ut amet eiusmod et qui pariatur nisi veniam. Non Lorem quis enim reprehenderit et Lorem excepteur. In adipisicing exercitation non non nisi non laboris commodo sit laborum cillum proident.\r\n",
     Status: true,
