@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as  Router, Route, Routes} from 'react-router-dom';
 import Main from './components/Main/Main'
-import Search from './components/Search/Search';
+import PatientInfo from './components/Search/PatientInfo';
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/' element={<Main />}></Route>
-          <Route exact path='/search' element={<Search />}></Route>
+          <Route exact path='/search' element={<PatientInfo />}></Route>
         </Routes>
         
       </Router>
