@@ -9,18 +9,9 @@ const PatientInfo = () => {
       <div className="row">
         <div className="col-md-4 bg-info">
           <div className="d-flex flex-column justify-content-between h-100">
-            <ul className="list-group">
-              <li className="list-group-item d-flex justify-content-between align-items-center">
-                Historial médico
-                <span className="badge bg-primary rounded-pill">2</span>
-              </li>
-              <li className="list-group-item d-flex justify-content-between align-items-center">
-                Notas de enfermería
-                <span className="badge bg-primary rounded-pill">1</span>
-              </li>
-            </ul>
             <div className="d-grid gap-2">
-              <button className="btn btn-primary mt-3" type="button">Agregar nota</button>
+              <p>Busqueda de hospital para el paciente</p>
+              
               <button className="btn btn-primary mt-3" type="button" onClick={()=>{navigate("/")}}>Salir</button>
             </div>
           </div>
